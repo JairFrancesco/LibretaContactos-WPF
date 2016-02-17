@@ -1,0 +1,76 @@
+﻿<Controls:MetroWindow x:Class="LibretaContactosWPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
+        Title="Libreta de Contactos" Height="678.358" Width="481.716"
+                      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        GlowBrush="{DynamicResource AccentColorBrush}"
+        WindowStartupLocation="CenterScreen"
+        EnableDWMDropShadow="True"
+        ResizeMode="CanResizeWithGrip"
+        WindowTransitionsEnabled="False" Loaded="MetroWindow_Loaded_1">
+    <Controls:MetroWindow.Background>
+        <RadialGradientBrush>
+            <GradientStop Color="#FF0E7EA8" Offset="1"/>
+            <GradientStop Color="#FF26A9B6"/>
+        </RadialGradientBrush>
+    </Controls:MetroWindow.Background>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="55*"/>
+            <ColumnDefinition Width="97*"/>
+            <ColumnDefinition Width="3*"/>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="7*"/>
+            <RowDefinition Height="44*"/>
+            <RowDefinition Height="43*"/>
+            <RowDefinition Height="42*"/>
+            <RowDefinition Height="44*"/>
+            <RowDefinition Height="44*"/>
+            <RowDefinition Height="44*"/>
+            <RowDefinition Height="45*"/>
+            <RowDefinition Height="296*"/>
+            <RowDefinition Height="38*"/>
+        </Grid.RowDefinitions>
+        <Menu IsMainMenu="True" Background="AliceBlue" HorizontalAlignment="Left" Height="30" Margin="10,10,0,0" VerticalAlignment="Top" Width="436" Grid.Column="1" Grid.Row="1" BorderBrush="{StaticResource AccentColorBrush}" Grid.ColumnSpan="2">
+            <MenuItem Header="Archivo">
+                <MenuItem Header="Abrir Libreta" Click="AbrirLibretaToolStripMenuItem_Click"></MenuItem>
+                <MenuItem Header="Guardar Libreta" Click="GuardarLibretaToolStripMenuItem_Click"></MenuItem>
+                <MenuItem Header="Salir" Click="Salir"></MenuItem>
+            </MenuItem>
+            
+        </Menu>
+        <TextBlock FontSize="16" Grid.Column="1" HorizontalAlignment="Left" Margin="50,15,0,0" Grid.Row="2" TextWrapping="Wrap" Text="Nombres:" VerticalAlignment="Top" Height="auto" Width="auto" Foreground="White" OpacityMask="#FFAC2727"/>
+        <TextBlock FontSize="16" Grid.Column="1" HorizontalAlignment="Left" Margin="50,15,0,0" Grid.Row="3" TextWrapping="Wrap" Text="Apellidos:" VerticalAlignment="Top" Height="auto" Width="auto" Foreground="White"/>
+        <TextBlock FontSize="16" Grid.Column="1" HorizontalAlignment="Left" Margin="50,0,0,0" Grid.Row="4" TextWrapping="Wrap" Text="Fecha de Nacimiento:" VerticalAlignment="Top" Height="auto" Width="auto" Foreground="White"/>
+        <TextBlock FontSize="16" Grid.Column="1" HorizontalAlignment="Left" Margin="50,15,0,0" Grid.Row="5" TextWrapping="Wrap" Text="Telefono:" VerticalAlignment="Top" Height="auto" Width="auto" Foreground="White"/>
+        <TextBlock FontSize="16" Grid.Column="1" HorizontalAlignment="Left" Margin="50,0,0,0" Grid.Row="6" TextWrapping="Wrap" Text="Correo Electronico:" VerticalAlignment="Top" Height="auto" Width="auto" Foreground="White"/>
+        <TextBox Grid.Column="2" HorizontalAlignment="Left" Height="26" Margin="10,10,0,0" Grid.Row="2" TextWrapping="Wrap" Text="TextBox" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="txtApellido" Grid.Column="2" HorizontalAlignment="Left" Height="26" Margin="10,10,0,0" Grid.Row="3" TextWrapping="Wrap" VerticalAlignment="Top" Width="271"/>
+        <TextBox x:Name="txtTelefono" Grid.Column="2" HorizontalAlignment="Left" Height="26" Margin="10,10,0,0" Grid.Row="5" TextWrapping="Wrap" VerticalAlignment="Top" Width="141"/>
+        <TextBox x:Name="txtNombre" Grid.Column="2" HorizontalAlignment="Left" Height="26" Margin="10,10,0,0" Grid.Row="2" TextWrapping="Wrap" VerticalAlignment="Top" Width="271"/>
+        <TextBox x:Name="txtCorreo" Grid.Column="2" HorizontalAlignment="Left" Height="26" Margin="10,10,0,0" Grid.Row="6" TextWrapping="Wrap" VerticalAlignment="Top" Width="141"/>
+        <DatePicker x:Name="dpNacimiento" Grid.Column="2" HorizontalAlignment="Left" Margin="10,8,0,0" Grid.Row="4" VerticalAlignment="Top" Width="120" SelectedDate="{Binding DatePickerDate, ValidatesOnDataErrors=True, UpdateSourceTrigger=PropertyChanged, NotifyOnValidationError=True}" Height="26"/>
+        <Button Click="btnAddTelefono_Click" x:Name="btnAddTelefono" Style="{StaticResource AccentedSquareButtonStyle}"  Content="+" Grid.Column="2" HorizontalAlignment="Left" Margin="156,11,0,0" Grid.Row="5" VerticalAlignment="Top" Width="21" Height="25"/>
+        <Button Click="btnAddCorreo_Click" x:Name="btnAddCorreo" Style="{StaticResource AccentedSquareButtonStyle}"  Content="+" Grid.Column="2" HorizontalAlignment="Left" Margin="156,10,0,0" Grid.Row="6" VerticalAlignment="Top" Width="21" Height="25"/>
+        <Button x:Name="btnDeshacer" Content="Deshacer" Grid.Column="2" HorizontalAlignment="Left" Margin="10,10,0,0" Grid.Row="7" VerticalAlignment="Top" Width="75" Height="25"/>
+        <Button x:Name="btnAgregar" Content="Agregar" Grid.Column="2" HorizontalAlignment="Left" Margin="102,10,0,0" Grid.Row="7" VerticalAlignment="Top" Width="75" Height="25"/>
+        <ListView x:Name="lvwContactos" Grid.Column="1" HorizontalAlignment="Left" Height="251" Margin="10,10,0,0" Grid.Row="8" VerticalAlignment="Top" Width="436" Grid.ColumnSpan="2">
+            <ListView.View>
+                <GridView>
+                    <GridViewColumn Header="Nombres" Width="Auto" DisplayMemberBinding="{Binding Nombre}" />
+                    <GridViewColumn Header="Apellidos" Width="Auto" DisplayMemberBinding="{Binding Apellido}" />
+                    <GridViewColumn Header="Edad" Width="50" DisplayMemberBinding="{Binding Edad}" />
+                    <GridViewColumn Header="Telefono" Width="Auto" DisplayMemberBinding="{Binding Telefono}"/>
+                    <GridViewColumn Header="Correo Electronico" Width="150" DisplayMemberBinding="{Binding CorreoElectronico}"/>
+                </GridView>
+            </ListView.View>
+        </ListView>
+        <Button x:Name="btnClean" Content="Limpiar Libreta" Grid.Column="2" HorizontalAlignment="Center" Margin="0,3,182,0" Grid.Row="9" VerticalAlignment="Top" Width="109"/>
+
+    </Grid>
+    
+    
+</Controls:MetroWindow>

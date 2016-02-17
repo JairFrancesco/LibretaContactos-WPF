@@ -1,0 +1,38 @@
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\bin\Debug\LibretaContactosWPF.exe.config
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\obj\Debug\LibretaContactosWPF.csprojResolveAssemblyReference.cache
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\obj\Debug\MainWindow.baml
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\obj\Debug\Resources\Icons.baml
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\obj\Debug\App.baml
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\obj\Debug\MainWindow.g.cs
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\obj\Debug\Resources\Icons.g.cs
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\obj\Debug\App.g.cs
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\obj\Debug\LibretaContactosWPF_MarkupCompile.cache
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\obj\Debug\LibretaContactosWPF.g.resources
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\obj\Debug\LibretaContactosWPF.Properties.Resources.resources
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\obj\Debug\LibretaContactosWPF.csproj.GenerateResource.Cache
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\bin\Debug\LibretaContactosWPF.exe
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\bin\Debug\LibretaContactosWPF.pdb
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\bin\Debug\MahApps.Metro.dll
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\bin\Debug\System.Windows.Interactivity.dll
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\bin\Debug\MahApps.Metro.xml
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\obj\Debug\LibretaContactosWPF.exe
+c:\users\jairfrancesco\documents\visual studio 2012\Projects\LibretaContactosWPF\LibretaContactosWPF\obj\Debug\LibretaContactosWPF.pdb
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\bin\Debug\LibretaContactosWPF.exe.config
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\obj\Debug\LibretaContactosWPF.exe
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\obj\Debug\LibretaContactosWPF.pdb
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\bin\Debug\LibretaContactosWPF.exe
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\bin\Debug\LibretaContactosWPF.pdb
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\bin\Debug\MahApps.Metro.dll
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\bin\Debug\System.Windows.Interactivity.dll
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\bin\Debug\MahApps.Metro.xml
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\obj\Debug\LibretaContactosWPF.csprojResolveAssemblyReference.cache
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\obj\Debug\MainWindow.baml
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\obj\Debug\Resources\Icons.baml
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\obj\Debug\App.baml
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\obj\Debug\MainWindow.g.cs
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\obj\Debug\Resources\Icons.g.cs
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\obj\Debug\App.g.cs
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\obj\Debug\LibretaContactosWPF_MarkupCompile.cache
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\obj\Debug\LibretaContactosWPF.g.resources
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\obj\Debug\LibretaContactosWPF.Properties.Resources.resources
+C:\Users\JairFrancesco\Documents\LibretaContactos-WPF\LibretaContactosWPF\obj\Debug\LibretaContactosWPF.csproj.GenerateResource.Cache
